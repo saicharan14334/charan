@@ -172,3 +172,29 @@ condition.
 
 functions:-
 ************
+- A block of code used to perform a specific task
+- function is a non-primitive data type
+- functions can be reusable
+
+syntax: 
+function function_name(optional parameters){ // function declaration
+    // statements
+}
+
+function_name(arguments) // function call
+
+Types of functions:
+- named function - func having a name and invoked with the same name.
+- anonymous function - func which doesnot have a name and is not invoked with the name
+- function expression - anonymous func declaration is assigned to a variable and same variable is invoked 
+- immediate inovke function expression(IIFE) - once the func is created, immediately it should be invoked and it can be execute only once.
+- arrow function - it is used to concise the normal function system.
+    ()=>{}
+    - it is similar to anonymous func.
+- higher order function - 
+- callback function
+
+Note:
+- current version of JS is es14
+- es6 is stable version
+-es ecma sript
