@@ -136,3 +136,39 @@ Decision making statments:-
 - ternary
 
 prompt():- this method is used to collect the data from the users.
+
+looping statements:-
+********************
+- to execute the block of codes repeatedly.
+for loop :-
+-will be used when the exact iteration count is known.
+- minimum iteration count is "0"
+synatx :-  for(initialization ; condition; updation){
+            //statements
+            }
+while :-
+- will be used when we dont know the iteration count.
+- minimum iteration count is "0"
+syntax :-  while(condition){
+                //statements
+            }
+do-while:-
+- will be used when we dont know the iteration count.
+- minimum iteration count is "1"
+syntax :-  do{
+            //statements
+            }while(condition)
+
+what are entry controlled and exit controlled loops?
+- entry controlled loops - for loop , while loop
+- exit controlled loops - do-while loop
+
+-what is the difference between "break" and "continue" keywords.
+break - when condition satisfied it will terminate the loop
+permenently
+
+continue-when the condition satisfies it will skip that particular
+condition.
+
+functions:-
+************
