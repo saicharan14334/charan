@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form>
+      <div class="input-group">
+        <label for="username">Username</label>
+        <div class="input-wrapper">
+          <i class="fa-regular fa-user"></i>
+          <input type="text" id="username" name="username" placeholder="Type your username" required>
+        </div>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <div class="input-wrapper">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" id="password" name="password" placeholder="Type your password" required>
+        </div>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+    <p>Or Sign Up Using</p>
+    <div class="social-icons">
+      <a href="#" class="social-icon facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="social-icon twitter"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="social-icon google"><i class="fa-brands fa-google"></i></a>
+    </div>
+    <p>Or Sign Up Using<br/><a href="signup.html">Sign Up</a></p>
+  </div>
+</body>
+</html>
