@@ -300,5 +300,26 @@ syntax:-  let p = new Promise((resolve,  reject)=>{});
     3.finallY():- once promise is settled it will print the value
 
 
-4.async & await
+4.async: async keyword is a keyword is used to convert synchronous function into Asynchronous function and start to excute 
+ & await: it is used to make the function to wait untill the promise complete.
+
 note:- by default, javascript is synchronous(single threaded).
+
+=> **DOM**:-
+ dom stands for document object model.
+ dom is used to add,remove,update to content in html document
+ dom is used to manipulate the content in html document
+ 
+ => Dom methods:
+
+1. document.getElementById("):- IT is used to select the html element based on "id attribute" value.
+                                id attribute should be unique/ it should be used with only one element.
+2. document.getElementsByClassName(""):- IT is used to select the html element based on "class attribute" value.
+                                          it is used for multiple elements with common values
+3. document.getElementsByTagName(""):- it used for select html element  based on tag names.
+4. document.getElementByName(""):-it is used to select based on "name attribute" value.
+- these below methods select the html elements based on css selectors
+5.document.querySelector(""):- it selects only one element 
+6.document.ByquerySelectorAll(""):- it will selects multiple elements
+
+innerHTML:it is a property used to manipulate plain text
