@@ -322,4 +322,6 @@ note:- by default, javascript is synchronous(single threaded).
 5.document.querySelector(""):- it selects only one element 
 6.document.ByquerySelectorAll(""):- it will selects multiple elements
 
-innerHTML:it is a property used to manipulate plain text
+innerText:it is a property used to manipulate plain text
+innerHTML:- it is a proportey used to add and remove the content along with tags 
+***Events in Dom:
