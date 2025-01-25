@@ -30,8 +30,38 @@
 // // console.log(ele);
 // let ele =document.querySelectorAll('.test');
 // console.log(ele);
-let btn = document.querySelector('#btn');
-btn.addEventListener("click",()=>{
-    console.log("buttonclicked")
+// let btn = document.querySelector('#btn');
+// btn.addEventListener("click",()=>{
+//     console.log("buttonclicked")
+
+// // })
+// let bgColor = document.querySelectorAll(".bgColor");
+// console.log(bgColor);
+// []
+// let ele = document.createElement("h1");
+// ele.innerText = "Dynamic creation of html element";
+// ele.id = "demo";
+// let image = document.createElement("img");
+// image.src = "./3606208.jpg";
+// console.log(image);
+
+// document.body.appendChild(ele);
+// document.body.appendChild(image);
+let form = document.querySelector("form");
+let username = document.getElementById("uName");
+let mail = document.getElementById("uMail");
+let psw = document.getElementById("uPass");
+
+form.addEventListener("submit",(event)=>{
+  event.preventDefault();
+  let uname = username.value;
+  let uemail = mail.value;
+  let upass = psw.value;
+  let userDetails={
+    uname,uemail,upass
+  }
+  console.log(userDetails);
+  localStorage.setItem("userData", JSON.stringify(userDetails))
 
 })
+

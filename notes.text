@@ -325,3 +325,9 @@ note:- by default, javascript is synchronous(single threaded).
 innerText:it is a property used to manipulate plain text
 innerHTML:- it is a proportey used to add and remove the content along with tags 
 ***Events in Dom:
+- Events are nothing but actions performed on html elements.
+- events are of click events , mouse events , key events.
+
+click events :- onclick , ondblclick , onsubmit , onchange
+mouse events :- mouseover , mouseleave
+keyevents:- keydown , keyup , keypress(depricated).
